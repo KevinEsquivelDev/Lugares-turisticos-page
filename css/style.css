@@ -18,7 +18,7 @@ header {
 }
 
 .white-overlay {
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, .8);
     height: 100%;
     width: 100%;
 }
@@ -122,9 +122,13 @@ header .container > div h1 {
 
 .about-us {
     position: relative;
-    padding: 100px 0;
     font-family: 'Open Sans', sans-serif;
+    background-image: url('../imgs/agency.jpg');
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+
 }
+
 
 /* services */
 
@@ -175,69 +179,6 @@ header .container > div h1 {
     color: #bd8cbf;
 }
 
-
-
-
-/* agency */
-
-.about-us {
-    background-image: url('../imgs/agency.jpg');
-    font-family: 'Open Sans', sans-serif;
-    background-size: cover;
-}
-
-.agency .container > div {
-    margin: 0 auto;
-    width: 86%;
-    margin-bottom: 30px;
-}
-
-.agency .white-overlay {
-   padding: 50px 0 20px;
-}
-
-.agency .container > div > div {
-    display: inline-block;
-    position: relative
-}
-
-.agency .container > div > div img {
-    width: 500px;
-    margin: 0 20px;
-}
-
-.agency img:first-of-type, .agency img:last-of-type {
-    width: 200px;
-}
-
-.agency .container > div h2 {
-    position: absolute;
-    color: white;
-    bottom: 105px;
-    left: 195px;
-    font-size: 40px;
-}
-
-/* statistics */
-
-.statistics {
-    padding: 50px 0;
-    font-family: sans-serif;
-}
-
-.statistics i, .statistics p {
-    color: #bd8cbf;
-}
-
-.statistics i {
-    margin-bottom: 10px;
-}
-
-.statistics h3 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
 
 /* contact */
 
