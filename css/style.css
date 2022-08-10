@@ -31,6 +31,10 @@ h2 span, h1 span {
     color: #bd8cbf;
 }
 
+p span {
+    color: #bd8cbf;
+}
+
 li {
     list-style-type: none;
 }
