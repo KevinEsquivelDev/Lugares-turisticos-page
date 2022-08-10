@@ -35,25 +35,12 @@ li {
     list-style-type: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-a, button {
-    transition: all .5s ease;
-}
-
-button {
-    padding: 0
-}
-
 body {
     font-size: 1.1rem;
 }
 
 
 /* navbar */
-
 nav.navbar {
     position: absolute;
     top: 0;
@@ -118,115 +105,65 @@ header .container > div h1 {
 
 
 
-/* about us */
+/* about */
 
-.about-us {
+.about {
     position: relative;
     font-family: 'Open Sans', sans-serif;
     background-image: url('../imgs/agency.jpg');
     font-family: 'Open Sans', sans-serif;
     background-size: cover;
-
 }
 
 
-/* services */
+/* lugares */
 
-.services {
+.lugares {
     margin-bottom: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.services .slide {
+.lugares .slide {
     width: 65%;
     margin: 0 auto;
 }
 
-.services .carousel-inner .carousel-item {
+.lugares .carousel-inner .carousel-item {
     width: 100%;
     height: 100%
 }
 
-.services .carousel-inner img {
+.lugares .carousel-inner img {
     height: 500px;
     width: 90%;
 }
 
-.services .carousel-control-next, .services .carousel-control-prev {
+.lugares .carousel-control-next, .lugares .carousel-control-prev {
     width: 60px;
     height: 60px;
     background: #FFF;
     border-radius: 50%;
 }
 
-.services .carousel-control-next i, .services .carousel-control-prev i {
+.lugares .carousel-control-next i, .lugares .carousel-control-prev i {
     color: #000
 }
 
-.services .carousel-control-next {
+.lugares .carousel-control-next {
     right: 0;
     top: 80%;
     right: 40%;
     background-color: #FFF;
 }
 
-.services .carousel-control-prev {
+.lugares .carousel-control-prev {
     top: 80%;
     left: 40%;
 }
 
-.services i {
+.lugares i {
     color: #bd8cbf;
 }
-
-
-/* contact */
-
-.contact {
-    background-image: url('../imgs/contact.jpg');
-    background-size: cover;
-}
-
-.contact h2 {
-    color: white;
-    margin-bottom: 30px;
-}
-
-.contact .contact-form {
-    width: 50%;
-    margin: 0 auto;
-}
-
-.contact form input, .contact form textarea {
-    width: 100%;
-    outline: none;
-    border: none;
-    padding: 5px 10px;
-}
-
-.contact form input{
-    border-radius: 50px;
-    margin-bottom: 20px;
-}
-
-.contact form textarea {
-    resize: none;
-    height: 130px;
-    border-radius: 25px;
-    margin-bottom: 30px;
-}
-
-.contact form input[type="submit"] {
-    width: 130px;
-    height: 40px;
-    padding: 0;
-    line-height: 40px;
-    background-color: #ef44f8;
-    color: white;
-    margin: 0 auto;
-    display: block;
-}
-
 
 
 /* footer */
@@ -293,28 +230,7 @@ footer .copyright p {
     .about-us .row > div > .item:nth-of-type(3) p {
         display: none;
     }
-
-    /* agency */
-
-    .agency img:first-of-type, .agency img:last-of-type {
-        width: 150px
-    }
-    .agency .container > div > div img {
-        max-width: 400px;
-        width: 100%;
-    }
-    .agency .container > div h2 {
-        bottom: 87px;
-        left: 164px;
-        font-size: 30px;
-    }
-    .agency .container > div h2 {
-        display: none;
-    }
-
 }
-
-
 
 @media (max-width: 992px) {
 
@@ -350,39 +266,15 @@ footer .copyright p {
         width: 100%;
     }
 
-    /* services */
+    /* lugares */
 
-    .services .slide {
+    .lugares .slide {
         width: 80%
     }
 
-    .services .carousel-control-next, .services .carousel-control-prev {
+    .lugares .carousel-control-next, .lugares .carousel-control-prev {
         width: 50px;
         height: 50px;
-    }
-
-    /* agency */
-
-    .agency img:first-of-type, .agency img:last-of-type {
-        display: none
-    }
-    .agency .container > div > div img {
-        display: block;
-    }
-    .agency .container > div {
-        width: 56%;
-    }
-
-    /* statistics */
-
-    .statistics .col-lg-3 {
-        margin-bottom: 40px
-    }
-
-    /* contact */
-
-    .contact .contact-form {
-        width: 70%
     }
 
     /* footer */
@@ -407,20 +299,15 @@ footer .copyright p {
         display: none;
     }
 
-    /* services */
+    /* lugares */
 
-    .services .slide {
+    .lugares .slide {
         width: 90%
     }
-    .services .carousel-control-next, .services .carousel-control-prev {
+    .lugares .carousel-control-next, .lugares .carousel-control-prev {
         display: none;
     }
 
-    /* agency */
-
-    .agency .container > div {
-        width: 87%;
-    }
 
 }
 
