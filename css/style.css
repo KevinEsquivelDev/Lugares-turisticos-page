@@ -3,10 +3,6 @@ header {
     background-size: cover;
 }
 
-.small-container {
-    width: 95%;
-    margin: 0 auto;
-}
 
 .overlay {
     background-color: rgba(0, 0, 0, .51);
@@ -120,30 +116,6 @@ header .container > div h1 {
     font-size: 90px;
 }
 
-header button {
-    background-color: transparent;
-    display: block;
-    border: 1px solid #FFF;
-    border-radius: 50px;
-    padding: 0;
-    margin: 30px auto;
-}
-
-header button a {
-    padding: 10px 40px;
-    display: block;
-    color: #FFF;
-}
-
-header button:hover {
-    background-color: #bd8cbf;
-    border: 1px solid #bd8cbf;
-}
-
-header button:hover a {
-    color: white;
-}
-
 
 
 /* about us */
@@ -153,7 +125,6 @@ header button:hover a {
     padding: 100px 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 
 /* services */
 
