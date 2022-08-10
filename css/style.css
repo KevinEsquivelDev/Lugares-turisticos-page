@@ -148,14 +148,14 @@ header .container > div h1 {
 }
 
 .services .carousel-inner img {
-    height: 100%;
-    width: 100%;
+    height: 500px;
+    width: 90%;
 }
 
 .services .carousel-control-next, .services .carousel-control-prev {
     width: 60px;
     height: 60px;
-    background: #bd8cbf;
+    background: #FFF;
     border-radius: 50%;
 }
 
