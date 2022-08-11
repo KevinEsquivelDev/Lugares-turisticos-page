@@ -78,6 +78,10 @@ nav.navbar form input {
     width: 100%;
 }
 
+.dropdown-menu{
+    background-color: transparent;
+
+}
 
 
 
